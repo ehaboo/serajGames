@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/icon.png">
+    <title>Seraj Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Hi 👋 Mom and Dad, Choose a letter to start the fun!</p>
+            <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+    <aside>Add Games ... </aside>
+    <main>
+
+        <div id="container">
+            <div id="starBox"></div>
+        </div>
+        <hr>
+        <div id="divBox">
+        </div>
+        <div id="buttonBox">
+            <button id="oneMoreButton" onclick="showRandomSpans()">One More</button>
+            <button onclick="resetGame()">Reset</button>
+        </div>
+        
+    </main>
+    <aside id="inputBox">
+
+    </aside>
+    <script src="./script.js"></script>
+</body>
+</html>
